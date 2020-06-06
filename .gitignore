@@ -1,0 +1,10 @@
+#General
+dist
+node_modules
+*.log
+
+#Reports
+coverage
+
+#Test File
+.jest-test-results.json

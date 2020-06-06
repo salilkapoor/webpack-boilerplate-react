@@ -1,0 +1,11 @@
+@mixin sm-device-type {
+  @media (min-width: $small-device-threshold) {
+    @content;
+  }
+}
+
+@mixin md-device-type {
+  @media (min-width: $medium-device-threshold) {
+    @content;
+  }
+}
