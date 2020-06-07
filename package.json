@@ -12,8 +12,8 @@
     "build": "webpack --mode production",
     "test": "npx jest --config ./config/jest.config.js",
     "test:watch": "yarn run test --watch --verbose",
-    "test:badges": "jest-coverage-badges --output './badges'",
-    "lint": "eslint src/",
+    "test:badges": "jest-coverage-badges --output ./badges",
+    "lint": "eslint src/ --fix",
     "lint:prettier": "pretty-quick",
     "commit": "npx git-cz"
   },

@@ -1,25 +1,18 @@
-import React from 'react';
-import { render } from '@testing-library/react';
+import React from 'react'
+import { render } from '@testing-library/react'
 
-import App from '.';
+import App from '.'
 
-const defaultProps = {
-  sampleHeading: 'Sample',
-};
-
-const getWrapperSetup = (props = {}) => {
-  const finalProps = { ...defaultProps, ...props };
-  return render(<App {...finalProps} />);
-};
+const getWrapperSetup = () => render(<App />)
 
 describe('Scenario 1: Testing the initial sample code', () => {
-  let wrapper = '';
+  let wrapper = ''
 
   beforeEach(() => {
-    wrapper = getWrapperSetup();
-  });
+    wrapper = getWrapperSetup()
+  })
 
   test('Unit Test 1: Should render component correctly', () => {
-    expect(wrapper).toBeDefined();
-  });
-});
+    expect(wrapper).toBeDefined()
+  })
+})

@@ -1,11 +1,10 @@
 {
-  "*.{js,json,css,md}":[
+  "*.{json,css,md}":[
     "prettier --write",
     "git add",
   ],
-  "*.js": [
+  "*.{js,jsx,ts,tsx}": [
     "yarn run lint",
-    "yarn run lint:prettier",
-    "yarn run test",
+    "yarn run lint:prettier"
   ],
 }
