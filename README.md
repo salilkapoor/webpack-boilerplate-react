@@ -8,3 +8,19 @@ Minimal boilerplate code to start with react app.
 ![Functions Coverage](./badges/badge-functions.svg)
 ![Lines Coverage](./badges/badge-lines.svg)
 ![Statements Coverage](./badges/badge-statements.svg)
+
+## Features
+- Development - Unit Testing (React Testing Library)
+- Commit Syntax - Commitizen and Commitlint
+- pre-commit hooks - lint fixes, commit message validation & Unit Testing on pre-push hook
+- eslint setup extending airbnb
+- prettier setup
+
+
+## Getting started
+Proxy enabled for local development
+```
+cd newebpack-react-boilerplate
+npm install/ yarn
+npm start/ yarn start
+```
