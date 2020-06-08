@@ -1,7 +1,7 @@
 {
   "name": "react-boilerplate",
   "version": "1.0.0",
-  "description": "React boilerplate for common code, configurations and CI/CD implementations.",
+  "description": "React boilerplate for common code, configurations and code quality checks.",
   "main": "index.js",
   "repository": "",
   "author": "Salil Kapoor",
