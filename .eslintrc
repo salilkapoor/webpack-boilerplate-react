@@ -12,7 +12,7 @@
     "document": true,
     "window": true
   },
-  "extends": ["airbnb"],
+  "extends": ["airbnb", "react-hooks"],
   "env": {
     "browser": true,
     "jest": true,
@@ -34,6 +34,8 @@
     "no-underscore-dangle": "off",
     "import/imports-first": ["error", "absolute-first"],
     "import/newline-after-import": "error",
-    "semi": "off"
+    "semi": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
   }
 }
